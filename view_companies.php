@@ -16,8 +16,8 @@ if ($result->num_rows > 0) {
         echo "</tr>";
     }
     echo "</table>";
-    echo "<br>
-        <a href='http://localhost/add_agency.php'>Додати компанію</a>";
+    echo "<br><a href='/lettings/add_agency.php'>Додати компанію</a><br>";
+    echo "<br><a href='/lettings/kpi.php'>Переглянути статистику</a>";
 } else {
     echo "0 результатів";
 }
